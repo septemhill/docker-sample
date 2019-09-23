@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  api:
+    #image: "septemhill/testapi"
+    build: .
+    ports: 
+      - "9999:8080"
